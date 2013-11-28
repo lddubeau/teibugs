@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:foo="http://foo.foo/foo">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bug</title>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p><foo:cit><ref>A</ref><p>Abc</p></foo:cit></p>
+      <p><cit><q>Abc</q></cit></p>
+    </body>
+  </text>
+</TEI>
