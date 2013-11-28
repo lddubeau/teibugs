@@ -18,7 +18,7 @@ tei-p5-xsl2 6.34
 
 ### Actual Results
 
-The file ``out/foo.doc.html`` does not allow to distinguish on the basis of a simple HTML link the documentation for TEI's ``cit`` from the documentation for the new element ``cit`` in the namespace ``http://foo.foo/foo`` (henceforth refered with the ``foo:`` prefix). The documentation fragments for each of these two element are given the same HTML id: "cit".
+The file ``out/foo.doc.html`` does not allow to distinguish on the basis of a simple HTML link the documentation for TEI's ``cit`` from the documentation for the new element ``cit`` in the namespace ``http://foo.foo/foo`` (henceforth referred with the ``foo:`` prefix). The documentation fragments for each of these two element are given the same HTML id: "cit".
 
 Note that in effect this makes some of the documentation incorrect because when a content model means to link to ``foo:cit``, the browser brings the user to TEI's ``cit`` element instead.
 
