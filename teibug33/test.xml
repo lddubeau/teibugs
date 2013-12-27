@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:foo="http://foo.foo/foo">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bug</title>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>This file exists only to test that the schema produced from the myTEI.xml file means what we think it means.</p>
+      <p><foo:cit><foo:flerbl><ref>A</ref><p>Abc</p></foo:flerbl></foo:cit></p>
+      <p><cit><q>Abc</q></cit></p>
+    </body>
+  </text>
+</TEI>
